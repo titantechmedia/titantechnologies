@@ -48,6 +48,15 @@ const TitanTechnologiesLanding = () => {
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/40" />
 
+      {/* Logo in top left */}
+      <div className="absolute top-12 left-12 z-20">
+        <img 
+          src="/titan.png" 
+          alt="Titan Technologies Logo" 
+          className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity duration-300"
+        />
+      </div>
+
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 sm:px-8 lg:px-12">
         <div className="text-center max-w-4xl mx-auto space-y-12">
