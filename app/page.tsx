@@ -8,7 +8,7 @@ const TitanTechnologiesLanding = () => {
     // Generate stars
     const generateStars = () => {
       const newStars = [];
-      for (let i = 0; i < 150; i++) {
+      for (let i = 0; i < 250; i++) {
         newStars.push({
           id: i,
           x: Math.random() * 100,
@@ -48,6 +48,15 @@ const TitanTechnologiesLanding = () => {
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/40" />
 
+      {/* Logo in top left */}
+      <div className="absolute top-12 left-12 z-20">
+        <img 
+          src="/titan.png" 
+          alt="Titan Technologies Logo" 
+          className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity duration-300"
+        />
+      </div>
+
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 sm:px-8 lg:px-12">
         <div className="text-center max-w-4xl mx-auto space-y-12">
@@ -67,11 +76,11 @@ const TitanTechnologiesLanding = () => {
           <div className="space-y-8">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white leading-relaxed">
               Something extraordinary is
-              <span className="block text-gray-300 mt-2">being crafted</span>
+              <span className="block text-gray-300">being crafted</span>
             </h2>
             
             <p className="text-base sm:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed font-light">
-            We are building the future of personal finance. Intelligent solutions that redefine how people manage, grow, and secure their money
+            We are building the future of finance
             </p>
           </div>
 
@@ -94,9 +103,9 @@ const TitanTechnologiesLanding = () => {
               </a>
             </div>
             
-            <p className="text-xs text-gray-600 tracking-wider">
+            {/* <p className="text-xs text-gray-600 tracking-wider">
               COMING SOON
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
