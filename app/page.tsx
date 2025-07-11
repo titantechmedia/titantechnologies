@@ -8,7 +8,7 @@ const TitanTechnologiesLanding = () => {
     // Generate stars
     const generateStars = () => {
       const newStars = [];
-      for (let i = 0; i < 150; i++) {
+      for (let i = 0; i < 250; i++) {
         newStars.push({
           id: i,
           x: Math.random() * 100,
@@ -67,11 +67,11 @@ const TitanTechnologiesLanding = () => {
           <div className="space-y-8">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white leading-relaxed">
               Something extraordinary is
-              <span className="block text-gray-300 mt-2">being crafted</span>
+              <span className="block text-gray-300">being crafted</span>
             </h2>
             
             <p className="text-base sm:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed font-light">
-            We are building the future of personal finance. Intelligent solutions that redefine how people manage, grow, and secure their money
+            We are building the future of finance
             </p>
           </div>
 
@@ -94,9 +94,9 @@ const TitanTechnologiesLanding = () => {
               </a>
             </div>
             
-            <p className="text-xs text-gray-600 tracking-wider">
+            {/* <p className="text-xs text-gray-600 tracking-wider">
               COMING SOON
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
