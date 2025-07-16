@@ -78,10 +78,7 @@ const TitanTechnologiesLanding = () => {
               Something extraordinary is
               <span className="block text-gray-300">being crafted</span>
             </h2>
-            
-            <p className="text-base sm:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed font-light">
-            We are building the future of finance
-            </p>
+          
           </div>
 
      
@@ -89,18 +86,11 @@ const TitanTechnologiesLanding = () => {
           {/* Call to Action */}
           <div className="space-y-8 pt-8">
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <button className="group px-8 py-3 bg-white text-black font-medium tracking-wide hover:bg-gray-100 transition-all duration-300 text-sm">
+              <button className="group cursor-pointer hover:border-white hover:border-2 hover:bg-black hover:text-white px-8 py-3 bg-white text-black font-medium tracking-wide transition-all duration-300 text-sm">
                 GET NOTIFIED
               </button>
               
-              <a 
-                href="https://titantechinvestments.in" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="group px-8 py-3 border border-gray-600 text-white font-medium tracking-wide hover:border-gray-400 transition-all duration-300 text-sm"
-              >
-                EXPLORE INVESTMENTS
-              </a>
+            
             </div>
             
             {/* <p className="text-xs text-gray-600 tracking-wider">
